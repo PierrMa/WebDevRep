@@ -1,0 +1,39 @@
+{
+  "name": "javascriptprojects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PierrMa/WebDevRep.git"
+  },
+  "keywords": [
+    "Javascript",
+    "npm",
+    "Node"
+  ],
+  "author": "FREDERIC Pierre-Marie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PierrMa/WebDevRep/issues"
+  },
+  "homepage": "https://github.com/PierrMa/WebDevRep#readme",
+  "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^8.12.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "babel-loader": "^8.2.5",
+    "babel-polyfill": "^6.26.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
