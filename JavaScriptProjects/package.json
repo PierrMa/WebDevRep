@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/PierrMa/WebDevRep#readme",
   "dependencies": {
+    "config": "^3.3.7",
     "install": "^0.13.0",
     "npm": "^8.12.2"
   },
